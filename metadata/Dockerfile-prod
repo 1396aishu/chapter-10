@@ -1,5 +1,5 @@
 FROM node:18.17.1
-
+#selecting work directory!
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm ci --omit=dev

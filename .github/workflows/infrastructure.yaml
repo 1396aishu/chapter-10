@@ -33,7 +33,7 @@ jobs:
           kubectl-version: v1.24.2
 
       # 
-      # Deploys MongoDB.
+      # Deploys MongoDB.....
       #
       - name: Deploy MongoDB
         run: kubectl apply -f ./scripts/cd/mongodb.yaml
